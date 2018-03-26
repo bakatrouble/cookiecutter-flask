@@ -1,0 +1,6 @@
+uwsgi:
+  socket: /tmp/{{cookiecutter.project_slug}}.sock
+  module: wsgi:app
+  master: true
+  processes: 2
+  enable-threads: true

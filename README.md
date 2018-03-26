@@ -1,0 +1,1 @@
+Based on https://github.com/italomaia/flask-empty
